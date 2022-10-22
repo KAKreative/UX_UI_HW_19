@@ -3,21 +3,26 @@
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="CSS/style.css">
+              <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="/js/index.js"></script>
     </head>
     <body>
+        <div class="container">
+        <div class="headerSpacer"></div>
         <header>
             <div>
-                <img style="margin:20px"     src="images/logo11.png" width="125" height="125" alt="KA Kreative Logo" >
-  
-                    <ul>
-                        <li>Work</li>
-                        <li>About</li>
-                        <li>Interests</li>
-                        <li>Contact</li>
-                    </ul>          
+                <nav>
+                <img style="margin:10px"     src="images/logo.png" width="60" height="60" alt="KA Kreative Logo" >
+                        <ul>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Work">Work</a></li>
+                            <li><a href="#Skills">Skills & Interests</a></li>              
+                        </ul>  
+                </nav>        
             </div>
         </header>
         <section class="content">
+            <section id="About"> 
             <div class="heroImg">
                 <h1>Greetings! I am Kimmie Alexandre</h1>
             
@@ -34,7 +39,9 @@
                     In addition to nearly a year of UX/ UI experience, I also have a background in  engineering, media communications, graphic design and photography.
                     </p>
             </div> 
-            <div class="content whiteBox" style="margin-top: 111px;">
+            </section>
+            <section id="Work"> 
+            <div class="content whiteBox" style="padding-top: 11px;">
               <h2>Work</h2> 
               <button>SEE PORTFOLIO</button> 
                  <div>
@@ -75,6 +82,8 @@
                 </table>
                 </div>
             </div> 
+            </section>
+            <section id="Skills"> 
                 <div class="centeredUL center">
                     <div style="flex: 1;">
                         <ul style="display:inline-table;">
@@ -133,22 +142,8 @@
                     </div>
                 </div>
             </div>  
-
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </section>
         <footer>
             <div class="social"> 
                 <a href="https://www.linkedin.com/in/kimberly-alexandre-b9739a40/" target="_blank">
@@ -162,5 +157,7 @@
                 </a>
             </div>
         </footer>
+        <div class="headerSpacer"></div>    
+    </div>
     </body>
 </html>
